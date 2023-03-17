@@ -19,3 +19,5 @@ const number = parseInt(prompt('Scegli un numero compreso tra 10 e 99'));
     console.log(name, surname, pet, color, number);
 
 
+const outputPw = pet + color + number;
+    console.log(outputPw);
