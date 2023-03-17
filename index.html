@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css' integrity='sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==' crossorigin='anonymous'/>
     <!-- bootstrap link  -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.css' integrity='sha512-bR79Bg78Wmn33N5nvkEyg66hNg+xF/Q8NA8YABbj+4sBngYhv9P8eum19hdjYcY7vXk/vRkhM3v/ZndtgEXRWw==' crossorigin='anonymous'/>
     <!-- css style link  -->
@@ -22,9 +24,10 @@
             <div class="card-header bg-warning">
                 <h2 class="text-center fw-bold">Password Generator Wannabe!</h2>
             </div>
-            <div class="card-body d-flex flex-column align-items-center">
-                <h4 class="py-5">Potresti usare questa Password:</h4>
-                <h5 class="fw-bold text-primary">prova sa sa</h5>
+            <div class="card-body d-flex flex-column align-items-center bg-dark">
+                <h4 class="py-5 text-light">Potresti usare questa Password:</h4>
+                <i class="fa-regular fa-circle-down text-light fs-1 pb-5"></i>
+                <h5 id="output" class="fw-bold text-warning"></h5>
             </div>
         </div>
     </div>

@@ -2,3 +2,8 @@
     height: 500px;
     width: 400px;
 }
+
+#output {
+    border: 2px solid white;
+    padding: 10px 15px 15px 15px;
+}
