@@ -11,11 +11,11 @@ chiedere all'utente il nome, l'anno di nascita, e l'età. Il programma restituis
 
 */
 
-const name = prompt('Inserisci il tuo nome');
-const surname = prompt('Inserisci il tuo cognome');
-const pet = prompt('Inserisci il tuo animale preferito');
-const color = prompt('Inserisci il tuo colore preferito');
-const number = parseInt(prompt('Scegli un numero compreso tra 10 e 99'));
+const name = prompt('Inserisci il tuo nome', 'Nome');
+const surname = prompt('Inserisci il tuo cognome', 'Cognome');
+const pet = prompt('Inserisci il tuo animale preferito', 'Animale');
+const color = prompt('Inserisci il tuo colore preferito', "Colore");
+const number = parseInt(prompt('Scegli un numero compreso tra 10 e 99', '27'));
     console.log(name, surname, pet, color, number);
 
 
