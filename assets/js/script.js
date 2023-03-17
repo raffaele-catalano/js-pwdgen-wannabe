@@ -21,3 +21,5 @@ const number = parseInt(prompt('Scegli un numero compreso tra 10 e 99'));
 
 const outputPw = pet + color + number;
     console.log(outputPw);
+
+document.getElementById('output').innerHTML = outputPw
