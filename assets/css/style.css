@@ -1,9 +1,10 @@
 .container {
-    height: 500px;
+    height: 550px;
     width: 400px;
 }
 
 #output {
     border: 2px solid white;
     padding: 10px 15px 15px 15px;
+    border-radius: 10px;
 }
