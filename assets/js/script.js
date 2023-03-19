@@ -18,6 +18,16 @@ const color = prompt('Inserisci il tuo colore preferito', "Colore");
 const number = parseInt(prompt('Scegli un numero compreso tra 10 e 99', '27'));
     console.log(name, surname, pet, color, number);
 
+const outputUser = 
+`
+Ciao ${name} ${surname}, <br>
+la tua Password potrebbe <br>
+essere:
+`
+    console.log(outputUser);
+
+document.getElementById('user').innerHTML = outputUser
+
 
 const outputPw = pet + color + number;
     console.log(outputPw);
